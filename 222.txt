@@ -1,0 +1,131 @@
+Last login: Wed Dec 20 19:34:46 on console
+xiaowanyideAir:~ myphone$ 都不
+-bash: 都不: command not found
+xiaowanyideAir:~ myphone$ 
+xiaowanyideAir:~ myphone$ 
+xiaowanyideAir:~ myphone$ 
+xiaowanyideAir:~ myphone$ 
+xiaowanyideAir:~ myphone$ cls
+-bash: cls: command not found
+xiaowanyideAir:~ myphone$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xiaowanyideAir:~ myphone$ /Users/myphone/Desktop/aaaaa 
+-bash: /Users/myphone/Desktop/aaaaa: is a directory
+xiaowanyideAir:~ myphone$ node -v
+v8.9.3
+xiaowanyideAir:~ myphone$ git -v
+Unknown option: -v
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+xiaowanyideAir:~ myphone$ git remote add origin https://github.com/996554776/qwee.git
+fatal: Not a git repository (or any of the parent directories): .git
+xiaowanyideAir:~ myphone$ git push -u origin master
+fatal: Not a git repository (or any of the parent directories): .git
+xiaowanyideAir:~ myphone$ 
+xiaowanyideAir:~ myphone$ echo“＃qwee”>> README.md 
+-bash: echo“＃qwee”: command not found
+xiaowanyideAir:~ myphone$ 
+xiaowanyideAir:~ myphone$ git -v
+Unknown option: -v
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+xiaowanyideAir:~ myphone$ clear
+
+xiaowanyideAir:~ myphone$ cd~/.ssh
+-bash: cd~/.ssh: No such file or directory
+xiaowanyideAir:~ myphone$ $ ssh-keygen -t rsa -C jonezhang86@gmail.com996554776
+-bash: $: command not found
+xiaowanyideAir:~ myphone$ git init
+Initialized empty Git repository in /Users/myphone/.git/
+xiaowanyideAir:~ myphone$ git --version
+git version 2.15.0
+xiaowanyideAir:~ myphone$ git --v
+Unknown option: --v
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+xiaowanyideAir:~ myphone$ git config --global user.name "FIRST_NAME LAST_NAME"
+xiaowanyideAir:~ myphone$ git config --global user.email "MY_NAME@example.com"
+xiaowanyideAir:~ myphone$ git credential-osxkeychain
+usage: git credential-osxkeychain <get|store|erase>
+xiaowanyideAir:~ myphone$ git config --global credential.helper osxkeychain
+xiaowanyideAir:~ myphone$ # Set git to use the osxkeychain credential helper
+xiaowanyideAir:~ myphone$ cd aaa
+-bash: cd: aaa: No such file or directory
+xiaowanyideAir:~ myphone$ git config --global user.name " qwe”
+> 
+xiaowanyideAir:~ myphone$ git config --global user.email "996554776@qq.com"
+xiaowanyideAir:~ myphone$ git config --global user.name "996554776"
+xiaowanyideAir:~ myphone$ git clone https://github.com/996554776/test.git
+Cloning into 'test'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+xiaowanyideAir:~ myphone$ cd /Users/myphone/Desktop/git 
+xiaowanyideAir:git myphone$ git clone https://github.com/996554776/test.git
+Cloning into 'test'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+xiaowanyideAir:git myphone$ cd test
+xiaowanyideAir:test myphone$ vim test.txt
+xiaowanyideAir:test myphone$ clear
+
+xiaowanyideAir:test myphone$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+xiaowanyideAir:test myphone$ git add .
+xiaowanyideAir:test myphone$ git commit -m "change text.txt"
+[master bb64913] change text.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+xiaowanyideAir:test myphone$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+xiaowanyideAir:test myphone$ git push 
+Username for 'https://github.com': 996554776
+Password for 'https://996554776@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 278 bytes | 278.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/996554776/test.git
+   e646d77..bb64913  master -> master
+xiaowanyideAir:test myphone$ ≠≠
+xiaowanyideAir:test myphone$ vim 222.txt
+xiaowanyideAir:test myphone$ 
+xiaowanyideAir:test myphone$ git init 
+Reinitialized existing Git repository in /Users/myphone/Desktop/git/test/.git/
+xiaowanyideAir:test myphone$ 
